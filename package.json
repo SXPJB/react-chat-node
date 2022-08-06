@@ -5,9 +5,9 @@
   "main": "server/index.js",
   "type": "module",
   "scripts": {
-    "start": "node",
-    "dev": "nodemon",
-    "build": "npm --prefix chat-ui install && npm --prefix chat-ui run build"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "npm --prefix chat-ui install && npm run --prefix chat-ui build"
   },
   "keywords": [],
   "author": "",
