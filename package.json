@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node",
     "dev": "nodemon",
-    "build": "npm --prefix chat-ui run build"
+    "build": "npm --prefix chat-ui install && npm --prefix chat-ui run build"
   },
   "keywords": [],
   "author": "",
