@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
-    "build": "npm i vite && npm --prefix chat-ui install && npm run --prefix chat-ui build"
+    "build": "npm --prefix ./chat-ui install && npm run --prefix ./chat-ui build"
   },
   "keywords": [],
   "author": "",
